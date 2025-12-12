@@ -15,9 +15,9 @@
             <!-- Desktop menu -->
             <div class="hidden md:flex items-center gap-8">
                 <a href="index.html" class="text-gray-700 hover:text-blue-600 transition">Home</a>
-                <a href="about.html" class="text-gray-700 hover:text-blue-600 transition">About</a>
-                <a href="portfolio.html" class="text-gray-700 hover:text-blue-600 transition">Portfolio</a>
-                <a href="contact.html" class="text-gray-700 hover:text-blue-600 transition">Contact</a>
+                <a href="/about" class="text-gray-700 hover:text-blue-600 transition">About</a>
+                <a href="/portfolio" class="text-gray-700 hover:text-blue-600 transition">Portfolio</a>
+                <a href="/contact" class="text-gray-700 hover:text-blue-600 transition">Contact</a>
             </div>
         </div>
 
