@@ -85,15 +85,15 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div
             class="reveal bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition transform hover:scale-105">
-            <img src="assets/img/placeholder1.svg" class="w-full h-64 object-cover" alt="Project 1" />
+            <img src="/img/workopia-full.png" class="w-full h-64 object-cover" alt="Project 1" />
             <div class="p-6">
               <h3 class="text-xl font-semibold text-gray-900 mb-3">
-                Responsive Dashboard
+                Job location site
               </h3>
               <p class="text-gray-700 mb-4">
-                An admin dashboard built for a logistics client featuring
-                dynamic charts, filters, and role-based access. Implemented
-                with performance and clarity in mind.
+               A job finder workspace to find, secure and create your job acccording to your taste.
+               Created with laravel, alpinejs and tailwind for styling and responsiveness and posgresql for database
+               management.
               </p>
               <a href="portfolio.html#project1"
                 class="inline-block text-blue-600 hover:text-blue-700 font-semibold">View Details →</a>
@@ -102,15 +102,14 @@
 
           <div
             class="reveal bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition transform hover:scale-105">
-            <img src="assets/img/placeholder2.svg" class="w-full h-64 object-cover" alt="Project 2" />
+            <img src="/img/collage.png" class="w-full h-64 object-cover" alt="Project 2" />
             <div class="p-6">
               <h3 class="text-xl font-semibold text-gray-900 mb-3">
-                Marketing Site Redesign
+               BuiltBizz blog
               </h3>
               <p class="text-gray-700 mb-4">
-                Complete redesign of a marketing site to improve conversion
-                rate and brand clarity. Focused on responsive hero sections
-                and clear CTAs.
+                Simple blog site craeted with raw vanilla php, mysql database
+                javascript for search functionallity and bootstrap for styling.
               </p>
               <a href="portfolio.html#project2"
                 class="inline-block text-blue-600 hover:text-blue-700 font-semibold">View Details →</a>
