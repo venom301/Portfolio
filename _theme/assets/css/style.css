@@ -1,0 +1,84 @@
+/* Tailwind CSS Portfolio - Custom Animations and Enhancements */
+
+/* Smooth scrolling for the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Additional animation for smooth transitions */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Mobile menu toggle functionality styles */
+#mobileMenu {
+  transition: max-height 0.3s ease-in-out;
+}
+
+/* Form input focus states */
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+/* Card hover effect enhancement */
+.hover\:scale-105:hover {
+  animation: scaleIn 0.3s ease-out;
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+/* Fade-in animation for elements */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Smooth reveal animations */
+.reveal {
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Link hover effects */
+a {
+  transition: color 0.3s ease;
+}
+
+/* Button hover effects */
+button,
+.btn {
+  transition: all 0.3s ease;
+}
+
+/* Subtle shadow effects on hover */
+.shadow-md:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
