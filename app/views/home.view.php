@@ -129,7 +129,7 @@
           I'm available for backend development, routing, and database
           management. Let's build something great.
         </p>
-        <a href="contact.html"
+        <a href="/contact"
           class="inline-block bg-white text-blue-600 hover:bg-gray-50 font-semibold py-3 px-8 rounded-lg transition">
           Get in Touch
         </a>

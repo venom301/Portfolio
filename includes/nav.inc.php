@@ -2,7 +2,7 @@
 <nav class="fixed top-0 w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4">
         <div class="flex items-center justify-between">
-            <a href="/" class="text-2xl font-bold text-gray-900">Vishnu</a>
+            <a href="/" class="text-2xl font-bold text-gray-900">Felix.Dev</a>
 
             <!-- Mobile menu button -->
             <button id="mobileMenuBtn" class="md:hidden p-2" aria-label="Toggle menu">
@@ -16,7 +16,6 @@
             <div class="hidden md:flex items-center gap-8">
                 <a href="/" class="text-gray-700 hover:text-blue-600 transition">Home</a>
                 <a href="/about" class="text-gray-700 hover:text-blue-600 transition">About</a>
-                <a href="/portfolio" class="text-gray-700 hover:text-blue-600 transition">Portfolio</a>
                 <a href="/contact" class="text-gray-700 hover:text-blue-600 transition">Contact</a>
             </div>
         </div>
@@ -25,7 +24,6 @@
         <div id="mobileMenu" class="hidden md:hidden mt-4 pb-4 space-y-2 border-t pt-4">
             <a href="/" class="block text-gray-700 hover:text-blue-600 transition py-2">Home</a>
             <a href="/about" class="block text-gray-700 hover:text-blue-600 transition py-2">About</a>
-            <a href="/portfolio" class="block text-gray-700 hover:text-blue-600 transition py-2">Portfolio</a>
             <a href="/contact" class="block text-gray-700 hover:text-blue-600 transition py-2">Contact</a>
         </div>
     </div>

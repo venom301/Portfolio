@@ -12,4 +12,17 @@
   <!-- <link rel="stylesheet" href="./css/style.css"> -->
 </head>
 
+<style>
+  .reveal {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+
+  .reveal.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+
 <body class="bg-gradient-to-b from-white to-gray-50">

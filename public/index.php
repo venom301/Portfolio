@@ -4,19 +4,20 @@ require '../Router.php';
 
 $router = new Router();
 
-$router->get('/', function() {
+$router->get('/', function () {
     loadView('home');
 });
 
-$router->get('/about', function() {
+$router->get('/about', function () {
     loadView('about');
 });
 
-$router->get('/portfolio', function() {
-    loadView('portfolio');
+$router->get('/portfolio', function () {
+    $projects = require __DIR__ . '/' . '../data.php';
+    loadView('portfolio', ['projects' => $projects]);
 });
 
-$router->get('/contact', function() {
+$router->get('/contact', function () {
     loadView('contact');
 });
 

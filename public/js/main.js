@@ -47,18 +47,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  // Form validation and feedback
-  const forms = document.querySelectorAll('form');
-  forms.forEach(form => {
-    form.addEventListener('submit', function (e) {
-      // Add custom validation here if needed
-      console.log('Form submitted');
-      // Prevent default for demo purposes
-      // In production, remove this line to allow actual form submission
-      // e.preventDefault();
-    });
-  });
-
   // Add active state to current nav link
   function updateActiveNav() {
     const currentPage = window.location.pathname.split('/').pop() || 'index.html';

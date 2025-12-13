@@ -38,7 +38,7 @@
                     </p>
                 </div>
                 <div class="reveal">
-                    <img src="/img/placeholder4.svg" class="w-full h-21 rounded-xl shadow-lg" alt="Profile image" />
+                    <img src="/img/pic.png" class="w-full h-80 rounded-full shadow-lg mx-auto" alt="Profile image" />
                 </div>
             </div>
         </div>
@@ -114,7 +114,7 @@
                 I'm available for front-end projects, full-stack development, and
                 consulting. Let's build something great.
             </p>
-            <a href="contact.html"
+            <a href="/contact"
                 class="inline-block bg-white text-blue-600 hover:bg-gray-50 font-semibold py-3 px-8 rounded-lg transition">
                 Get in Touch
             </a>

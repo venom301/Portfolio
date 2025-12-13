@@ -7,8 +7,13 @@ function basePath($path)
 }
 
 //load a view
-function loadView($name)
+function loadView($name, array $data = [])
 {
+    // extract array keys to local variables for convenience in views
+    if (!empty($data)) {
+        extract($data, EXTR_SKIP);
+    }
+
     include basePath('app/views/' . $name . '.view.php');
 }
 
