@@ -38,11 +38,11 @@
           <div
             class="reveal bg-gradient-to-br from-purple-50 to-purple-100/50 p-8 rounded-xl border border-purple-200 hover:shadow-lg transition">
             <h3 class="text-lg font-semibold text-gray-900 mb-3">
-              UI/UX Design
+             Database and Migrations
             </h3>
             <p class="text-gray-700 leading-relaxed">
-              Design thinking and prototyping to ensure delightful user
-              experiences and clear information architecture.
+             Creating strong database and mogrations for easy access andd manipulation
+             and proper control
             </p>
           </div>
 
